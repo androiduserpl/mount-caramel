@@ -1,0 +1,27 @@
+{
+  "name": "mount-caramel",
+  "version": "0.1.0",
+  "description": "site for the mount caramel brand",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/androiduserpl/mount-caramel.git"
+  },
+  "keywords": [
+    "mount",
+    "caramel",
+    "mountcaramel"
+  ],
+  "author": "androiduserpl Adrian Nowakowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/androiduserpl/mount-caramel/issues"
+  },
+  "homepage": "https://github.com/androiduserpl/mount-caramel#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
