@@ -30,6 +30,7 @@
 
     &__heading {
         font-family: $font-header;
+        font-weight: normal;
         font-size: 4rem;
         margin-bottom: 2rem;
         margin-top: 4rem;
@@ -45,12 +46,21 @@
         height: 50%;
         width: 50%;
         position: absolute;
+        background-size: cover;
 
         &--1 {
-
             width: 100%;
             background-image: url(../img/box_1.jpg);
-            background-size: cover;
+        }
+
+        &--2 {
+            width: 100%;
+            background-image: url(../img/box_2.jpg);
+        }
+
+        &--3 {
+            width: 100%;
+            background-image: url(../img/box_3.jpg);
         }
 
         &-mask {
@@ -64,17 +74,17 @@
         &:hover .btn--green {
             opacity: 1;
         }
-        
+
         &:hover .btn--green {
             transform: translate(50%, -6rem);
         }
-        
+
         & .btn--green {
             position: absolute;
             opacity: 0;
-            
+
             transform: translate(50%, 0%);
-            
+
             &:hover {
                 transform: translate(50%, -6rem);
             }

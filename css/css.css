@@ -32,7 +32,7 @@ body {
 
 @font-face {
   font-family: Tahu;
-  src: url("../fonts/Tahu!.otf"); }
+  src: url("../fonts/Tahu!.ttf"); }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -104,6 +104,7 @@ body {
       transform: translate(0%, 4%); }
   .card__heading {
     font-family: "Tahu";
+    font-weight: normal;
     font-size: 4rem;
     margin-bottom: 2rem;
     margin-top: 4rem;
@@ -114,11 +115,17 @@ body {
   .card__img {
     height: 50%;
     width: 50%;
-    position: absolute; }
+    position: absolute;
+    background-size: cover; }
     .card__img--1 {
       width: 100%;
-      background-image: url(../img/box_1.jpg);
-      background-size: cover; }
+      background-image: url(../img/box_1.jpg); }
+    .card__img--2 {
+      width: 100%;
+      background-image: url(../img/box_2.jpg); }
+    .card__img--3 {
+      width: 100%;
+      background-image: url(../img/box_3.jpg); }
     .card__img-mask {
       height: 100%;
       opacity: 0;
@@ -135,6 +142,23 @@ body {
       transform: translate(50%, 0%); }
       .card__img .btn--green:hover {
         transform: translate(50%, -6rem); }
+
+.shop__inner-left {
+  height: 90vh;
+  background-image: url(../img/syrups.png);
+  background-size: cover;
+  margin-top: -10rem; }
+
+.shop__inner-right {
+  width: 100%; }
+
+.shop__inner .btn--green {
+  margin-top: 5rem; }
+
+.heading-h3 {
+  font-family: Tahu;
+  font-weight: normal;
+  font-size: 6rem; }
 
 .row {
   max-width: 114rem;
@@ -187,9 +211,9 @@ body {
   position: relative;
   overflow: hidden; }
   .header__slider--slide {
-    height: 80vh;
+    height: 60vh;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     display: inline-block;
     overflow: hidden; }
 
@@ -210,4 +234,12 @@ body {
 
 .section-content {
   padding: 25rem 0 15rem 0;
-  margin-top: -20rem; }
+  margin-top: -25rem; }
+
+.section-shop {
+  height: 75vh;
+  padding: 10rem;
+  margin-top: 25rem;
+  background-image: url(../img/texture.jpg);
+  background-size: cover;
+  background-position: left; }
