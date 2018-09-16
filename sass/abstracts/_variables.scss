@@ -4,6 +4,23 @@
 
 $color-primary: #442517;
 $color-secondary: #94c01c;
-$color-white: #fff;
 
+$color-white: #fff;
+$color-black: #000;
+
+$color-gray-dark-1: #777;
+$color-gray-dark-2: #999;
+$color-gray-dark-3: #333;
+
+
+// fonts
 $font-lato-bold: 'Lato', sans-serif;
+$font-header: 'Tahu';
+$default-font-size: 1.6rem;
+
+
+//grid 
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;

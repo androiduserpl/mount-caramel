@@ -4,6 +4,13 @@
 
 @import "base/base"; 
 @import "base/utilities"; 
+@import "base/typography"; 
 
+@import "components/button"; 
+@import "components/content"; 
+
+@import "layout/grid"; 
 @import "layout/navigation"; 
 @import "layout/header"; 
+
+@import "pages/home";
