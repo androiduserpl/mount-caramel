@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+#demo1 {
+    height: 100vh;
+    /*position: relative;*/
+
+}
+
+.sl-img {
+    height: 95vh;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+
+#sl-img-1 {
+    background-image: url(img/sl-1.jpeg);
+}
+
+#sl-img-2 {
+    background-image: url(img/sl-2.jpeg);
+}
+
+#sl-img-3 {
+    background-image: url(img/sl-3.jpeg);
+}
+
+.skdslider .slide-navs {
+    position: absolute;
+    bottom: 80vh;
+    left: 50vh;
+}

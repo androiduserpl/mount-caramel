@@ -1,4 +1,82 @@
-.header-two {
-  color: aquamarine;
-  font-size: 5em;
-  text-align: center; }
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  padding: 0rem 3rem 3rem 3rem; }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-top-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-top-huge {
+  margin-bottom: 10rem !important; }
+
+.navigation {
+  padding-top: 0rem;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  top: 0; }
+  .navigation__list {
+    list-style: none; }
+  .navigation__item {
+    display: inline-block; }
+    .navigation__item:not(:last-child) {
+      margin-right: 1.5rem; }
+  .navigation__link:link, .navigation__link:visited {
+    color: #442517;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all .2s;
+    padding: 2rem;
+    font-family: "Lato", sans-serif; }
+  .navigation__link:hover, .navigation__link:active {
+    color: #fff;
+    background-color: #94c01c;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.22); }
+
+.header__slider {
+  position: relative;
+  overflow: hidden; }
+  .header__slider--slide {
+    height: 80vh;
+    background-size: cover;
+    background-position: top;
+    display: inline-block;
+    overflow: hidden; }
+
+#slide-1 {
+  background-image: url(../img/coconut_slajder.jpg); }
+
+#slide-2 {
+  background-image: url(../img/rose_slajder.jpg); }
+
+#slide-3 {
+  background-image: url(../img/vanilla_slajder.jpg); }
+
+.slick-dots {
+  position: relative;
+  bottom: 4rem;
+  display: inline-block;
+  right: -45rem; }

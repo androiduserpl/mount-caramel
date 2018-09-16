@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.demo-slick {
+    /*height: 50vh;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.sl-img {
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#sl-img-1 {
+    background-image: url(img/sl-1.jpeg);
+}
+
+#sl-img-2 {
+    background-image: url(img/sl-2.jpeg);
+}
+
+#sl-img-3 {
+    background-image: url(img/sl-3.jpeg);
+}
+
+.slider-inner {
+    background-color: rgba(8, 8, 8, 0.3);
+    display: inline-block;
+    padding: 20px;
+    /*position: absolute;*/
+    bottom: 200px;
+    left: 100px;
+    /*z-index: 20000;*/
+}

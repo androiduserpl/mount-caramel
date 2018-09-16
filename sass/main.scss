@@ -1,5 +1,9 @@
-.header-two {
-    color: aquamarine;
-    font-size: 5em;
-    text-align: center;
-}
+// dodawać kolejne elementy zgodnie z folderami po lewej
+
+@import "abstracts/variables"; 
+
+@import "base/base"; 
+@import "base/utilities"; 
+
+@import "layout/navigation"; 
+@import "layout/header"; 

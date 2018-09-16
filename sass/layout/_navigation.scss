@@ -1,0 +1,46 @@
+.navigation {
+    padding-top: 0rem;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 0;
+
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline-block;
+
+
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+
+    &__link {
+
+        &:link,
+        &:visited {
+            color: $color-primary;
+            //background-color: green;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all .2s;
+            padding: 2rem;
+            font-family: $font-lato-bold;
+            
+
+        }
+
+        &:hover,
+        &:active {
+            color: $color-white;
+            background-color: $color-secondary;
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.22);
+        }
+    }
+}
