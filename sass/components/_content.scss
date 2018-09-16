@@ -19,13 +19,17 @@
         cursor: pointer;
         transition: all .5s;
 
-        &:hover {
-            color: $color-primary;
-        }
+//        &:hover {
+//            color: $color-primary;
+//        }
 
         & i {
             transform: translate(0%, 4%);
         }
+    }
+    
+    &:hover &__icon {
+        color: $color-primary;
     }
 
     &__heading {
@@ -37,9 +41,13 @@
         cursor: pointer;
         transition: all .3s;
 
-        &:hover {
-            transform: scale(1.1);
-        }
+//        &:hover {
+//            transform: scale(1.1);
+//        }
+    }
+    
+    &:hover &__heading {
+        transform: scale(1.1);
     }
 
     &__img {
@@ -70,7 +78,6 @@
             transition: all .3s ease;
         }
 
-        &:hover &-mask,
         &:hover .btn--green {
             opacity: 1;
         }
@@ -90,4 +97,12 @@
             }
         }
     }
+    
+    &:hover &__img-mask,
+    &:hover .btn--green {
+        opacity: 1;
+    }
+    &:hover .btn--green {
+            transform: translate(50%, -6rem);
+        }
 }

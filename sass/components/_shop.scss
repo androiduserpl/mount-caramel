@@ -3,7 +3,8 @@
         //display: inline-block;
         
         &-left {
-            height: 90vh;
+            height: 50rem;
+            width: 100%;
             background-image: url(../img/syrups.png);
             background-size: cover;
             margin-top: -10rem;
@@ -17,10 +18,4 @@
             margin-top: 5rem;
         }
     }
-}
-.heading-h3 {
-    font-family: Tahu;
-    font-weight: normal;
-    font-size: 6rem;
-    
 }

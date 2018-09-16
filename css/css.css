@@ -24,6 +24,9 @@ body {
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
 
+.u-margin-top-smal {
+  margin-bottom: 4rem !important; }
+
 .u-margin-top-big {
   margin-bottom: 8rem !important; }
 
@@ -33,6 +36,11 @@ body {
 @font-face {
   font-family: Tahu;
   src: url("../fonts/Tahu!.ttf"); }
+
+.heading-h3 {
+  font-family: Tahu;
+  font-weight: normal;
+  font-size: 6rem; }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -98,10 +106,10 @@ body {
     border-radius: 50%;
     cursor: pointer;
     transition: all .5s; }
-    .card__icon:hover {
-      color: #442517; }
     .card__icon i {
       transform: translate(0%, 4%); }
+  .card:hover .card__icon {
+    color: #442517; }
   .card__heading {
     font-family: "Tahu";
     font-weight: normal;
@@ -110,8 +118,8 @@ body {
     margin-top: 4rem;
     cursor: pointer;
     transition: all .3s; }
-    .card__heading:hover {
-      transform: scale(1.1); }
+  .card:hover .card__heading {
+    transform: scale(1.1); }
   .card__img {
     height: 50%;
     width: 50%;
@@ -131,7 +139,6 @@ body {
       opacity: 0;
       background-color: rgba(255, 255, 255, 0.25);
       transition: all .3s ease; }
-    .card__img:hover .card__img-mask,
     .card__img:hover .btn--green {
       opacity: 1; }
     .card__img:hover .btn--green {
@@ -142,9 +149,15 @@ body {
       transform: translate(50%, 0%); }
       .card__img .btn--green:hover {
         transform: translate(50%, -6rem); }
+  .card:hover .card__img-mask,
+  .card:hover .btn--green {
+    opacity: 1; }
+  .card:hover .btn--green {
+    transform: translate(50%, -6rem); }
 
 .shop__inner-left {
-  height: 90vh;
+  height: 50rem;
+  width: 100%;
   background-image: url(../img/syrups.png);
   background-size: cover;
   margin-top: -10rem; }
@@ -155,10 +168,88 @@ body {
 .shop__inner .btn--green {
   margin-top: 5rem; }
 
-.heading-h3 {
-  font-family: Tahu;
-  font-weight: normal;
-  font-size: 6rem; }
+.form__group:not(:last-child) {
+  margin-bottom: 2rem; }
+
+.form__input {
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: inherit;
+  padding: 1.5rem 2rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: solid 2px #94c01c;
+  width: 90%;
+  display: block;
+  transition: all .3s; }
+  .form__input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #4f670c; }
+  .form__input::-webkit-input-placeholder {
+    color: #999; }
+  .form__input:focus:invalid {
+    border-bottom: 3px solid #4f670c; }
+
+.form__input:focus {
+  outline: none;
+  border-bottom: 3px solid #442517; }
+
+.form__label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-top: .7rem;
+  display: block;
+  transition: all .3s; }
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem); }
+
+.form__radio-grup {
+  width: 49%;
+  display: inline-block; }
+
+.form__radio-input {
+  display: none; }
+
+.form__radio-label {
+  font-size: 1.6rem;
+  padding-left: 4.5rem;
+  cursor: pointer;
+  position: relative; }
+
+.form__radio-button {
+  height: 3rem;
+  width: 3rem;
+  border: 5px solid #442517;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: -.4rem; }
+  .form__radio-button::after {
+    content: "";
+    display: block;
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #442517;
+    opacity: 0; }
+
+.form__radio-input:checked ~ .form__radio-label .form__radio-button:after {
+  opacity: 1; }
+
+.form-img {
+  background-image: url(../img/caramel_drops.jpg);
+  background-size: cover;
+  background-position: left;
+  height: 100vh; }
 
 .row {
   max-width: 114rem;
@@ -232,14 +323,25 @@ body {
   display: inline-block;
   right: -45rem; }
 
+.footer {
+  padding: 10rem 0;
+  margin-top: 70vh;
+  background-color: #94c01c; }
+  .footer__address__address .footer__address a {
+    text-decoration: none; }
+
 .section-content {
   padding: 25rem 0 15rem 0;
   margin-top: -25rem; }
 
 .section-shop {
-  height: 75vh;
+  height: 43rem;
   padding: 10rem;
   margin-top: 25rem;
   background-image: url(../img/texture.jpg);
   background-size: cover;
   background-position: left; }
+
+.section-contact__form {
+  width: 50%;
+  padding: 6rem; }
