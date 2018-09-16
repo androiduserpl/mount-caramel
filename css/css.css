@@ -31,14 +31,10 @@ body {
   margin-bottom: 10rem !important; }
 
 .navigation {
-  padding-top: 0rem;
-  display: inline-block;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  top: 0; }
+  padding-top: 0rem; }
   .navigation__list {
-    list-style: none; }
+    list-style: none;
+    text-align: center; }
   .navigation__item {
     display: inline-block; }
     .navigation__item:not(:last-child) {
