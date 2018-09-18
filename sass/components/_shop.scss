@@ -1,25 +1,32 @@
 .shop {
     position: relative;
-    
 }
 
-
 .syrop-img {
-    background-image: url(../img/syrups.png);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    height: 50vh;
-    width: calc(50vh * 1.42);
-    top: 0;
-    //left: 10vw;
-    
+    & img {
+        width: 100%
+    }
 }
 
 .syrop-text {
-    position: absolute;
-    height: 50vh;
-    right: 10vw;
-    top: 10rem;
+    width: 100%;
+    //position: absolute;
+    //background-color: aqua;
+    transform: translateY(20%);
+    
+    & h3 {
+        font-size: 6rem;
+    }
+    
+    & a {
+        margin: 0 auto;
+    }
+    
+    & a span {
+        display: block;
+    }
+    
+    & .transform-50 {
+       // transform: translateY(50%);
+    }
 }
-

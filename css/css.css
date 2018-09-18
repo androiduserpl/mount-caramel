@@ -159,25 +159,27 @@ body {
 .shop {
   position: relative; }
 
-.syrop-img {
-  background-image: url(../img/syrups.png);
-  background-size: cover;
-  background-position: center;
-  position: absolute;
-  height: 50vh;
-  width: calc(50vh * 1.42);
-  top: 0; }
+.syrop-img img {
+  width: 100%; }
 
 .syrop-text {
-  position: absolute;
-  height: 50vh;
-  right: 10vw;
-  top: 10rem; }
+  width: 100%;
+  transform: translateY(20%); }
+  .syrop-text h3 {
+    font-size: 6rem; }
+  .syrop-text a {
+    margin: 0 auto; }
+  .syrop-text a span {
+    display: block; }
 
 .form {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   text-transform: uppercase; }
+  .form h3 {
+    text-transform: none; }
+  .form textarea {
+    resize: none; }
   .form__group:not(:last-child) {
     margin-bottom: 2rem; }
   .form__input {
@@ -255,6 +257,10 @@ body {
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
   .row [class^="col-"] {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
