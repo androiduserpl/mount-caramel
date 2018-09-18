@@ -29,6 +29,7 @@
             transition: all .2s;
             padding: 2rem;
             font-family: $font-lato-bold;
+            font-weight: 700;
         }
 
         &:hover,
@@ -43,4 +44,9 @@
 #nav-logo {
     height: 3rem;
 
+}
+.nav-logo {
+    &:hover {
+        background-color: transparent;
+    }
 }

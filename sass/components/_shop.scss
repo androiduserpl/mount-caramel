@@ -1,21 +1,25 @@
 .shop {
-    &__inner {
-        //display: inline-block;
-        
-        &-left {
-            height: 50rem;
-            width: 100%;
-            background-image: url(../img/syrups.png);
-            background-size: cover;
-            margin-top: -10rem;
-        }
-        
-        &-right {
-            width: 100%
-        }
-        
-        & .btn--green {
-            margin-top: 5rem;
-        }
-    }
+    position: relative;
+    
 }
+
+
+.syrop-img {
+    background-image: url(../img/syrups.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 50vh;
+    width: calc(50vh * 1.42);
+    top: 0;
+    //left: 10vw;
+    
+}
+
+.syrop-text {
+    position: absolute;
+    height: 50vh;
+    right: 10vw;
+    top: 10rem;
+}
+

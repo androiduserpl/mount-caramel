@@ -3,6 +3,9 @@
 }
 
 .form {
+    font-family: $font-lato-bold;
+    font-weight: 700;
+    text-transform: uppercase;
 
     &__group:not(:last-child) {
         margin-bottom: 2rem;
@@ -44,11 +47,11 @@
 
     &__label {
         font-size: 1.2rem;
-        font-weight: 700;
-        margin-left: 2rem;
+        //margin-left: 2rem;
         margin-top: .7rem;
         display: block;
         transition: all .3s;
+        padding-bottom: .5rem;
         
     }
     
@@ -104,9 +107,12 @@
         opacity: 1;
     }
 }
+
+
+
+
 .form-img {
     background-image: url(../img/caramel_drops.jpg);
     background-size: cover;
     background-position: left;
-    height: 100vh;
 }
