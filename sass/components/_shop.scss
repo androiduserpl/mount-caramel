@@ -10,23 +10,24 @@
 
 .syrop-text {
     width: 100%;
-    //position: absolute;
-    //background-color: aqua;
-    transform: translateY(20%);
-    
+
+
     & h3 {
         font-size: 6rem;
     }
-    
+
     & a {
         margin: 0 auto;
     }
-    
+
     & a span {
         display: block;
     }
-    
-    & .transform-50 {
-       // transform: translateY(50%);
-    }
+}
+
+.transform-50 {
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, 50%);
 }

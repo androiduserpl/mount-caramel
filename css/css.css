@@ -163,14 +163,19 @@ body {
   width: 100%; }
 
 .syrop-text {
-  width: 100%;
-  transform: translateY(20%); }
+  width: 100%; }
   .syrop-text h3 {
     font-size: 6rem; }
   .syrop-text a {
     margin: 0 auto; }
   .syrop-text a span {
     display: block; }
+
+.transform-50 {
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, 50%); }
 
 .form {
   font-family: "Lato", sans-serif;
@@ -200,52 +205,6 @@ body {
       color: #999; }
     .form__input:focus:invalid {
       border-bottom: 3px solid #4f670c; }
-  .form__input:focus {
-    outline: none;
-    border-bottom: 3px solid #442517; }
-  .form__label {
-    font-size: 1.2rem;
-    margin-top: .7rem;
-    display: block;
-    transition: all .3s;
-    padding-bottom: .5rem; }
-  .form__input:placeholder-shown + .form__label {
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-4rem); }
-  .form__radio-grup {
-    width: 49%;
-    display: inline-block; }
-  .form__radio-input {
-    display: none; }
-  .form__radio-label {
-    font-size: 1.6rem;
-    padding-left: 4.5rem;
-    cursor: pointer;
-    position: relative; }
-  .form__radio-button {
-    height: 3rem;
-    width: 3rem;
-    border: 5px solid #442517;
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    top: -.4rem; }
-    .form__radio-button::after {
-      content: "";
-      display: block;
-      height: 1.3rem;
-      width: 1.3rem;
-      border-radius: 50%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      background-color: #442517;
-      opacity: 0; }
-  .form__radio-input:checked ~ .form__radio-label .form__radio-button:after {
-    opacity: 1; }
 
 .form-img {
   background-image: url(../img/caramel_drops.jpg);
@@ -334,7 +293,7 @@ body {
 
 .footer {
   height: 11rem;
-  padding: 2rem 0;
+  padding: 2rem;
   margin-top: 1rem;
   background-color: #94c01c;
   color: #fff;
@@ -352,6 +311,7 @@ body {
         text-decoration: none;
         color: #fff; }
   .footer__social {
+    padding-left: 1rem;
     font-size: 3rem; }
     .footer__social a {
       padding-left: 1rem;
@@ -374,8 +334,7 @@ body {
   margin-bottom: 10rem; }
 
 .section-shop {
-  height: 50vh;
-  padding: 5rem;
+  padding: 5rem 0;
   background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/texture.jpg);
   background-size: cover; }
 
