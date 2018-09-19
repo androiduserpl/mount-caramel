@@ -211,6 +211,11 @@ body {
   background-size: cover;
   background-position: left; }
 
+.mount-caramel__img img {
+  object-fit: cover;
+  width: 230px;
+  height: 230px; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -275,31 +280,6 @@ body {
 .nav-img:hover {
   cursor: pointer; }
 
-.header__slider {
-  position: relative;
-  overflow: hidden; }
-  .header__slider--slide {
-    height: 60vh;
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    overflow: hidden; }
-
-#slide-1 {
-  background-image: url(../img/coconut_slajder.jpg); }
-
-#slide-2 {
-  background-image: url(../img/rose_slajder.jpg); }
-
-#slide-3 {
-  background-image: url(../img/vanilla_slajder.jpg); }
-
-.slick-dots {
-  position: relative;
-  bottom: 4rem;
-  display: inline-block;
-  right: -45rem; }
-
 .footer {
   height: 11rem;
   padding: 2rem;
@@ -335,22 +315,17 @@ body {
       display: block;
       font-size: 2rem; }
 
-.section-content {
-  padding: 25rem 0 15rem 0;
+.section__mount-caramel {
+  margin-top: 1rem;
   height: 80vh;
-  margin-top: -25rem;
-  margin-bottom: 10rem; }
+  background-image: url(../img/texture.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative; }
 
-.section-shop {
-  padding: 5rem 0;
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/texture.jpg);
-  background-size: cover; }
-
-.section-contact {
-  height: 80vh;
-  background-image: url(../img/caramel_drops.jpg);
-  background-position: right;
-  background-size: 40%;
-  background-repeat: no-repeat;
-  margin-top: 5rem;
-  padding: 1rem 0 10rem 0; }
+.about-text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  transform: translate(0%, -50%); }

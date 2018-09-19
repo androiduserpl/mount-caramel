@@ -7,7 +7,7 @@
     font-family: $font-lato-bold;
     font-weight: 300;
     font-size: 2rem;
-        
+
 
     &__address {
         font-family: $font-lato-bold;
@@ -26,19 +26,35 @@
     }
 
     &__social {
-        padding-left: 1rem;
+        //padding-left: 1rem;
         font-size: 3rem;
 
-        & a {
-            padding-left: 1rem;
+        &--link {
+            text-align: center;
             display: inline-block;
-//            line-height: 3rem;
-            height: 4rem;
+            line-height: 4rem;
             width: 4rem;
             background-color: $color-white;
             border-radius: 50%;
             text-decoration: none;
             color: $color-secondary;
+
+
+            //            text-align: center;
+            //            padding-left: 1rem;
+            //            display: inline-block;
+            //            line-height: 4rem;
+            //            height: 4rem;
+            //            width: 4rem;
+            //            background-color: $color-white;
+            //            border-radius: 50%;
+            //            text-decoration: none;
+            //            color: $color-secondary;
+
+            //            &-i {
+            //
+            //                transform: translateX(-50%);
+            //            }
         }
 
         &--copy {

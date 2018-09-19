@@ -1,0 +1,17 @@
+.section__mount-caramel {
+    margin-top: 1rem;
+    height: 80vh;
+    background-image: url(../img/texture.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.about-text {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    transform: translate(0%, -50%);
+
+}

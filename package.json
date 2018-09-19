@@ -1,27 +1,28 @@
 {
-  "name": "mount-caramel",
-  "version": "0.1.0",
-  "description": "site for the mount caramel brand",
-  "main": "index.js",
-  "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/css.css -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/androiduserpl/mount-caramel.git"
-  },
-  "keywords": [
+    "name": "mount-caramel",
+    "version": "0.1.0",
+    "description": "site for the mount caramel brand",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss css/css.css -w",
+        "compile:sass-about": "node-sass sass/about.scss about/about-css.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/androiduserpl/mount-caramel.git"
+    },
+    "keywords": [
     "mount",
     "caramel",
     "mountcaramel"
   ],
-  "author": "androiduserpl Adrian Nowakowski",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/androiduserpl/mount-caramel/issues"
-  },
-  "homepage": "https://github.com/androiduserpl/mount-caramel#readme",
-  "devDependencies": {
-    "node-sass": "^4.9.3"
-  }
+    "author": "androiduserpl Adrian Nowakowski",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/androiduserpl/mount-caramel/issues"
+    },
+    "homepage": "https://github.com/androiduserpl/mount-caramel#readme",
+    "devDependencies": {
+        "node-sass": "^4.9.3"
+    }
 }
