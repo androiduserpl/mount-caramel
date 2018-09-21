@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
-    <title>Mount Caramel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
-    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="css/icon-font.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
-    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>Mount caramel</title>
 </head>
 
 <body>
-    <nav class="navigation">
-        <!--       <div>
-           <img src="img/logo.png" alt="Mount Caramel logo" id="nav-logo">
-       </div>-->
+
+    <nav class="navigation__nav">
         <ul class="navigation__list">
             <a href="#" class="nav-img"><img src="img/logo.png" alt="Mount Caramel logo" id="nav-logo"></a>
-            <!--<li class="navigation__item"><a href="#" class="navigation__link nav-logo"><img src="img/logo.png" alt="Mount Caramel logo" id="nav-logo"></a></li>-->
-            <li class="navigation__item"><a href="#syrop" class="navigation__link">Bio syrops</a></li>
-            <li class="navigation__item"><a href="#syrop" class="navigation__link">Clasic syrops</a></li>
-            <li class="navigation__item"><a href="#shop" class="navigation__link">Online shop</a></li>
-            <li class="navigation__item"><a href="about" class="navigation__link">About us</a></li>
-            <li class="navigation__item"><a href="#footer" class="navigation__link">Contact</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Bio syrups</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Classic syrups</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Online shop</a></li>
+            <li class="navigation__item"><a href="about" class="navigation__link">About US</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
         </ul>
     </nav>
 
@@ -36,82 +37,85 @@
     </header>
 
     <main>
-        <section class="section-content" id="syrop">
+
+        <section class="section-features">
+
             <div class="row">
                 <div class="col-1-of-3">
-                    <div class="card">
-                        <div class="u-center-text">
-                            <div class="card__icon">
-                                <i class="fa fa-compass" aria-hidden="true"></i>
+                    <div class="feature-box scale">
+                        <div class="feature-box__circle">
+                            <div class="feature-box__icon feature-box__icon-1">
+                                <div class="222"></div>
                             </div>
-                            <h4 class="card__heading">How it all begun...</h4>
                         </div>
-                        <div class="card__img card__img--1">
-                            <div class="card__img-mask"></div>
-                            <a href="#footer" class="btn btn--green">Learn more</a>
+                        <h4 class="heading-fourth u-margin-bottom-small">How it all begun</h4>
+                        <div class="feature-box__img feature-box__img--1">
+                            <div class="feature-box__img-mask"></div>
+                            <a href="#footer" class="btn btn--green btn--green-action">Learn more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-1-of-3">
-                    <div class="card">
-                        <div class="u-center-text">
-                            <div class="card__icon">
-                                <i class="fa fa-leaf" aria-hidden="true"></i>
+                    <div class="feature-box scale">
+                        <div class="feature-box__circle">
+                            <div class="feature-box__icon feature-box__icon-2">
+                                <div class="222"></div>
                             </div>
-                            <h4 class="card__heading">Top bio coffee syrups</h4>
                         </div>
-                        <div class="card__img card__img--2">
-                            <div class="card__img-mask"></div>
-                            <a href="#footer" class="btn btn--green">Learn more</a>
+                        <h4 class="heading-fourth u-margin-bottom-small">Top bio coffee syrups</h4>
+                        <div class="feature-box__img feature-box__img--2">
+                            <div class="feature-box__img-mask"></div>
+                            <a href="#footer" class="btn btn--green btn--green-action">Learn more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-1-of-3">
-                    <div class="card">
-                        <div class="u-center-text">
-                            <div class="card__icon">
-                                <i class="fa fa-smile-o" aria-hidden="true"></i>
+                    <div class="feature-box scale">
+                        <div class="feature-box__circle">
+                            <div class="feature-box__icon feature-box__icon-3">
+                                <div class="222"></div>
                             </div>
-                            <h4 class="card__heading">Classic syrops
-                            </h4>
                         </div>
-                        <div class="card__img card__img--3">
-                            <div class="card__img-mask"></div>
-                            <a href="#footer" class="btn btn--green">Learn more</a>
+                        <h4 class="heading-fourth u-margin-bottom-small">Classic syrops</h4>
+                        <div class="feature-box__img feature-box__img--3">
+                            <div class="feature-box__img-mask"></div>
+                            <a href="#footer" class="btn btn--green btn--green-action">Learn more</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="u-margin-top-huge">&nbsp;</div>
+
         </section>
-        <section class="section-shop" id="shop">
+
+        <section class="section-shop">
+
             <div class="row">
-                <div class="shop">
-                    <div class="col-2-of-3">
-                        <div class="syrop-img">
-                            <img src="img/syrups.png" alt="">
-                        </div>
+                <div class="col-2-of-3">
+                    <div class="feature-box feature-box-shop">
+                        <div class="shop__img">&nbsp;</div>
                     </div>
-                    <div class="col-1-of-3">
-                        <div class="syrop-text u-center-text">
-                            <div class="transform-50">
-                                <h3 class="heading-h3 u-center-text u-margin-bottom-small">
-                                    Get your sweet <br>treat today!
-                                </h3>
-                                <a href="" class="btn btn--green"><span>Shop online</span> <span>now</span></a>
-                            </div>
+                </div>
+
+                <div class="col-1-of-3">
+                    <div class="feature-box feature-box-absol">
+                        <div class="absol">
+                            <h3 class="heading-tertiary u-center-text u-margin-bottom-small">
+                                Get your sweet <br>treat today!
+                            </h3>
+                            <a href="" class="btn btn--green"><span>Shop online</span> <span>now</span></a>
                         </div>
                     </div>
                 </div>
             </div>
+
         </section>
-        
-        <section class="section-contact">
+        <section class="section-form">
+
             <div class="row">
                 <div class="col-2-of-4">
                     <div class="form">
                         <div class="u-center-text u-margin-top-smal">
-                            <h3 class="heading-h3 u-margin-bottom-medium">
+                            <h3 class="heading-tertiary u-margin-bottom-medium">
                                 Contact Us!
                             </h3>
                         </div>
@@ -137,11 +141,14 @@
                     </div>
 
                 </div>
+
                 <div class="col-1-of-4">
-                    <div class="form-img"></div>
+                    &nbsp;
                 </div>
             </div>
+
         </section>
+
         <footer class="footer" id="footer">
             <div class="row">
                 <div class="col-1-of-2">
@@ -171,11 +178,12 @@
 
     </main>
 
-
+    <!-- ******** skrypty ******** -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="slick/slick.js"></script>
     <script src="main.js"></script>
+
 </body>
 
 </html>

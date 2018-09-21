@@ -1,0 +1,69 @@
+@font-face { font-family: Tahu; src: url('../fonts/Tahu!.ttf'); }
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-gray-dark-1;
+}
+
+.heading-primary {
+    color: $color-primary;
+    
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+        animation: moveInLeft 1s ease-out;
+
+        @include respond(phone) {
+            letter-spacing: 1rem;
+            font-size: 5rem;
+        }
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.75rem;
+        text-align: center;
+        animation: moveInRight 1s ease-out;
+
+        @include respond(phone) {
+            letter-spacing: .5rem;
+        }
+    }
+
+}
+
+.heading-tertiary {
+    font-family: $font-header;
+    color: $color-primary;
+    font-size: 6rem;
+    font-weight: 400;
+    line-height: 6rem;
+}
+
+.heading-fourth {
+    font-family: $font-header;
+    color: $color-primary;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.paragraph {
+    font-family: $font-lato-bold;
+    font-weight: 700;
+    font-size: $default-font-size;
+    color: $color-black;
+    text-align: justify;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
