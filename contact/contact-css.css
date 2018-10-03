@@ -1,0 +1,68 @@
+/* contact individual css */
+
+.section-localization {
+    position: relative;
+    background-color: #94c01c;
+    height: 40vh;
+    margin-bottom: -5rem;
+}
+
+.section-localization iframe {
+    margin-top: 4rem;
+    height: 50vh;
+}
+
+
+.story__text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.story__text-contact h4,
+.story__text-contact p {
+    color: #fff;
+}
+
+.story__text-contact h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+
+.section-tel {
+    background-color: #94c01c;
+    padding: 2rem;
+    margin-top: 25rem;
+    margin-bottom: 5rem;
+}
+
+.tel p {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.form__input {
+    width: 100%;
+}
+
+
+/* rwd */
+
+@media screen and (max-width: 900px) {
+    .section-localization {
+        background-color: transparent;
+        /*height: 80vh;*/
+        margin-bottom: 0;
+    }
+    
+    .section-localization iframe {
+        margin-top: 2rem;
+    }
+    
+    .story__text {
+    position: inherit;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+}

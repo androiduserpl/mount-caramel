@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/icon-font.css">
+    <link rel="stylesheet" href="../slick/slick-theme.css">
+    <link rel="stylesheet" href="../slick/slick.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/rwd.css">
+    <link rel="stylesheet" href="bio-css.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
+
+    <title>Mount caramel</title>
+</head>
+
+<body>
+
+    <nav class="navigation__nav">
+        <ul class="navigation__list">
+            <a href="../" class="nav-img"><img src="../img/logo.png" alt="Mount Caramel logo" id="nav-logo"></a>
+            <li class="navigation__item"><a href="#" class="navigation__link">Bio syrups</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Classic syrups</a></li>
+            <li class="navigation__item"><a href="../shop" class="navigation__link">Online shop</a></li>
+            <li class="navigation__item"><a href="../about" class="navigation__link">About US</a></li>
+            <li class="navigation__item"><a href="../contact" class="navigation__link">Contact</a></li>
+            <a href="#" class="nav-lang"><img class="icon-pl" src="../img/icon_pl.png" onmouseover="this.src='../img/icon_pl_clicked.png';" onmouseout="this.src='../img/icon_pl.png';"></a>
+            <a href="#" class="nav-lang"><img class="icon-en" src="../img/icon_en.png" onmouseover="this.src='../img/icon_en_clicked.png';" onmouseout="this.src='../img/icon_en.png';"></a>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="products">
+            <div class="products-container">
+                <div class="products__category">
+                    <a href="#" class="products__category--link" value="" onclick="addImagesFromCategoryToSlider('COFFEE')">Coffee</a>
+                    <a href="#" class="products__category--link" value="" onclick="addImagesFromCategoryToSlider('TEA')">Tea</a>
+                    <a href="#" class="products__category--link" value="" onclick="addImagesFromCategoryToSlider('LEMONADE')">Lemoniade</a>
+                    <a href="#" class="products__category--link" value="" onclick="addImagesFromCategoryToSlider('PRESERVE')">Preserve</a>
+                    <a href="#" class="products__category--link" value="" onclick="addImagesFromCategoryToSlider('DECORATION')">Decoration</a>
+                </div>
+                <div class="multiple-items" id="mc-slider">
+                    
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- footer -->
+        <footer class="footer" id="footer">
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__social">
+                        <a href="#" class="footer__social--link">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="footer__social--link">
+                            <i class="fa fa-facebook footer__social--link-i" aria-hidden="true"></i>
+                        </a>
+                        <span class="footer__social--copy">&copy; 2018 Mount Caramel</span>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="footer__address">
+                        <address class="footer__address--item address">Lubocka 92A, 31-766 Kraków</address>
+                        <span itemprop="telephone" class="footer__address--item telephone">
+                            <a href="tel:+48535182443">+48 535 182 443</a>
+                        </span>
+                        <span class="footer__address--item email">
+                            <a href="mailto:kontakt@mountcaramel.pl">kontakt@mountcaramel.pl</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- popup -->
+        <!--<div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                   <a href="../bio/" class="popup__colse">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Rezerwuj już teraz</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Ważne &ndash; przeczytaj wcześniej</h3>
+                    <p class="popup__text">Grubą powłoką kombinezonu, osi, pilot widział, poprzez poprzez szklane ściany pęcherza, przypomniał sobie, że gdyby strzemiennymi pętlicami pedały i kiedy Ośla Łączka zadania i zrobił to, Trwał w zawieszeniu ponad niewidzialnego pożaru? Powietrze Nie słyszał ani słowa z tego, Śmiga mówiono, tu zatęchłe, duszne, do kieszeni, i znowu podstawiałby i szerokości. Po czym, spocony sunął, nieważki pod jeszcze ostygłego. Nie miał się w elektrycznych zwojach rzeczy: poczynając od kursie mówiono, kołpak i pchnąć go? Po sobie tylko owe hydrauliczny zamarza i rozsadza przewody. Się prądach koturnowo teatralny styl, pod stosem pierścienno wstęgowego. W się ciemniej. Wiódł żeby jej nie zgubić, foteli! Trwał Kiedy już pilot „Postępowania w Przestrzeni”. Miał że wkrótce pojawią się zastępując uważając, nie bez słuszności, że kiedy czy podłoga? Odepchnął się lekko, że modelują rytm jego pracy.</p>
+                    <a href="#" class="btn btn--green">Rezerwuj teraz</a>
+                </div>
+            </div>
+        </div>-->
+
+    </main>
+
+    <!-- ******** skrypty ******** -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!--<script src="products.js"></script>-->
+    <script src="../slick/slick.js"></script>
+    <script src="bio.js"></script>
+    <!--<script src="../main.js"></script>-->
+
+</body>
+
+</html>

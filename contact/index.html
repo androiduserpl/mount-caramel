@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/icon-font.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/rwd.css">
+    <link rel="stylesheet" href="contact-css.css">
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
+
+    <title>Mount caramel</title>
+</head>
+
+<body>
+
+    <nav class="topnav" id="myTopnav">
+        <a href="../" class="nav-img"><img src="http://mountcaramel.pl/test-dev/img/logo.png" alt="Mount Caramel logo" id="nav-logo"></a>
+        <a href="../bio" class="topnav-item">Bio syrups</a>
+        <a href="../classic" class="topnav-item">Classic syrups</a>
+        <a href="../shop" class="topnav-item">Online shop</a>
+        <a href="../about" class="topnav-item">About US</a>
+        <a href="#" class="topnav-item">Contact</a>
+        <span class="off"><a href="#" class="nav-lang">
+                <img class="icon-pl" src="http://mountcaramel.pl/test-dev/img/icon_pl.png" onmouseover="this.src='http://mountcaramel.pl/test-dev/img/icon_pl_clicked.png';" onmouseout="this.src='http://mountcaramel.pl/test-dev/img/icon_pl.png';">
+            </a>
+            <a href="#" class="nav-lang">
+                <img class="icon-en" src="http://mountcaramel.pl/test-dev/img/icon_en.png" onmouseover="this.src='http://mountcaramel.pl/test-dev/img/icon_en_clicked.png';" onmouseout="this.src='http://mountcaramel.pl/test-dev/img/icon_en.png';">
+            </a></span>
+        <a href="javascript:void(0);" class="icon navigation__link" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+
+    <main>
+        <section class="section-localization">
+            <div class="row">
+                <div class="col-2-of-3">
+                    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=20.089429020881656%2C50.09347040407924%2C20.09522259235382%2C50.09634394782634&amp;layer=mapnik&amp;marker=50.09490719749405%2C20.092325806617737" style="border: none"></iframe>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="story__text story__text-contact">
+                        <h4 class="heading-tertiary">Mount Caramel</h4>
+                        <p class="paragraph">
+                            Lubocka 92a <br>
+                            31-766 Cracow, Poland <br>
+                            VAT EU: PL 6762345054</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-tel">
+            <div class="row">
+                <div class="tel u-center-text">
+                    <div class="col-1-of-2">
+                        <p>CUSTOMER SUPPORT: <br>+48 535182443</p>
+                    </div>
+                    <div class="col-1-of-2">
+                        <p>OFFICE: <br>+48 794427480</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-form">
+
+            <div class="row">
+                <div class="col-2-of-4">
+                    <div class="form">
+                        <div class="u-center-text u-margin-top-smal">
+                            <h3 class="heading-tertiary u-margin-bottom-medium">
+                                Contact Us!
+                            </h3>
+                        </div>
+                        <div class="form__group">
+                            <label for="name" class="form__label">Your name</label>
+                            <input type="text" class="form__input" id="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email address</label>
+                            <input type="email" class="form__input" id="email" placeholder="Email address" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="topic" class="form__label">Subject</label>
+                            <input type="text" class="form__input" id="topic" placeholder="Subject" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="message" class="form__label">Your message</label>
+                            <textarea rows="4" class="form__input" id="message" form="usrform" placeholder="Your message"></textarea>
+                        </div>
+                        <div class="form__group">
+                            <button class="btn btn--green">Submit</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-1-of-4">
+                    &nbsp;
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <footer class="footer" id="footer">
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__social">
+                        <a href="#" class="footer__social--link">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" class="footer__social--link">
+                            <i class="fa fa-facebook footer__social--link-i" aria-hidden="true"></i>
+                        </a>
+                        <span class="footer__social--copy">&copy; 2018 Mount Caramel</span>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <div class="footer__address">
+                        <address class="footer__address--item address">Lubocka 92A, 31-766 Kraków</address>
+                        <span itemprop="telephone" class="footer__address--item telephone">
+                            <a href="tel:+48535182443">+48 535 182 443</a>
+                        </span>
+                        <span class="footer__address--item email">
+                            <a href="mailto:kontakt@mountcaramel.pl">kontakt@mountcaramel.pl</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- ******** skrypty ******** -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="slick/slick.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
