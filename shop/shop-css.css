@@ -1,0 +1,64 @@
+/**** shop individual css ****/
+
+.section-lemonade{
+    position: relative;
+    background-color: #94c01c;
+    height: 40vh;
+    margin-bottom: -5rem;
+}
+
+.section-lemonade .lemonade {
+    background-image: url(../img/orange_lemoniade_shop_online.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 4rem;
+    height: 50vh;
+}
+
+.story__text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.story__text h4,
+.story__text p {
+    color: #fff;
+}
+
+/* footer fix */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: calc(100% - 6rem);
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        width: 100%;   
+    }
+}
+
+
+/* rwd */
+
+@media screen and (max-width: 900px) {
+    .section-lemonade {
+        background-color: #fff;
+        height: 80vh;
+        margin-bottom: 0;
+    }
+    
+    .section-lemonade .lemonade {
+        margin-top: 0;
+        height: 80vh;
+    }
+    
+    .story__text {
+        right: 3rem;
+        padding: 2rem;
+        border-radius: 1%;
+        background-color: rgba(77, 77, 77, 0.25);    
+    }
+}

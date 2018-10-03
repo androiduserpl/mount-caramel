@@ -4,6 +4,19 @@ console.log('Cześć');
 /* load on document ready */
 $(document).ready(function () {
 
+
+    /*** cookies ***/
+
+
+    /*jQuery.fn.cookiesEU();*/
+    
+    
+    
+    /********** menu RWD **************/
+    
+    
+
+
     /* initialize slider */
     $('.header__slider').slick({
         dots: true,
@@ -29,3 +42,6 @@ $(document).ready(function () {
 
 
 });
+
+
+/*************/

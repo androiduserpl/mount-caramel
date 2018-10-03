@@ -1,10 +1,10 @@
 {
     "name": "mount-caramel",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "site for the mount caramel brand",
     "main": "index.js",
     "scripts": {
-        "compile:sass": "node-sass sass/main.scss css/css.css -w",
+        "compile:sass": "node-sass sass/main.scss css/style.css -w",
         "compile:sass-about": "node-sass sass/about.scss about/about-css.css -w"
     },
     "repository": {
